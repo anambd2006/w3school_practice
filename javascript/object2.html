@@ -1,0 +1,19 @@
+
+<html>
+    <head></head>
+    <body>
+        <p id="demo"></p></p>
+        <p id="demo1"></p></p> 
+
+    <script>
+
+      const car={type:"fiat", model: "500", color: "white"}
+        
+      document.getElementById("demo").innerHTML=car.type+" "+car.model+" "+car.color;
+
+      document.getElementById("demo1").innerHTML=car["type"]+" "+car["model"]+" "+car["color"];
+
+        </script>
+
+    </body>
+</html>
